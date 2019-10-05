@@ -1,0 +1,26 @@
+$('.main_slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    adaptiveHeight: true,
+    arrows: false,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    initialSlide: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
+});
+$('.wrapper_slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    adaptiveHeight: true,
+    arrows: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
+});
